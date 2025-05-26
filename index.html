@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Masmelitos de Corazón</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados adicionales si son necesarios */
+        body {
+            font-family: 'Inter', sans-serif; /* Fuente Inter de Tailwind */
+        }
+
+        .hero-image {
+            height: 60vh; /* Altura de la imagen principal */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+        }
+    </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+    <header class="bg-pink-500 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold">Empresa Masmelitos de Corazón</h1>
+            <nav class="mt-4 md:mt-0">
+                <a href="#quienes-somos" class="px-4 hover:text-pink-200">Quiénes Somos</a>
+                <a href="#contacto" class="px-4 hover:text-pink-200">Contacto</a>
+                <a href="#documentos" class="px-4 hover:text-pink-200">Documentos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="w-full">
+        <img src="imagenes/RGAPXJ6CPZDR3CFUJVGMJ4QPW4.JPG" alt="Imagen principal de Masmelitos" class="w-full hero-image rounded-b-lg shadow-xl" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/f871b3/ffffff?text=Imagen+Principal+Masmelitos';">
+    </div>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="quienes-somos" class="mb-12 p-6 bg-white rounded-lg shadow-md">
+            <h2 class="text-3xl font-semibold text-pink-600 mb-6 text-center">Quiénes Somos</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 md:pr-8">
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        Somos una compañía experta en la fabricación de dulces en gomitas y brindarle la mejor
+                        experiencia a nuestros clientes para que suban su dopamina y se sientan felices.
+                        En Masmelitos de Corazón, cada gomita es creada con amor y los ingredientes de la más alta calidad,
+                        pensando siempre en dibujar una sonrisa en tu rostro.
+                    </p>
+                </div>
+                <div class="md:w-1/3 mt-6 md:mt-0">
+                    <img src="imagenes/DSC2153.JPG" alt="Gomitas Masmelitos" class="rounded-lg shadow-lg w-full h-auto max-w-xs mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/300x200/fbcfe8/4a5568?text=Gomitas+Deliciosas';">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="mb-12 p-6 bg-white rounded-lg shadow-md">
+            <h2 class="text-3xl font-semibold text-pink-600 mb-6 text-center">Contacto</h2>
+            <div class="grid md:grid-cols-2 gap-8 text-center md:text-left">
+                <div class="bg-pink-100 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-medium text-pink-700 mb-2">Número de Contacto</h3>
+                    <p class="text-2xl text-gray-700 font-mono flex items-center justify-center md:justify-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.308 1.154a11.042 11.042 0 005.516 5.516l1.154-2.308a1 1 0 011.21-.502l4.493 1.498A1 1 0 0119.72 19h3.28a2 2 0 012 2v3a2 2 0 01-2 2h-1a14 14 0 01-14-14V5z" />
+                        </svg>
+                        324567895
+                    </p>
+                </div>
+                <div class="bg-pink-100 p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-medium text-pink-700 mb-2">Administradora de Ventas</h3>
+                    <p class="text-lg text-gray-700 flex items-center justify-center md:justify-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <a href="mailto:lolita@hotmail.com" class="hover:text-pink-600">lolita@hotmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="documentos" class="mb-12 p-6 bg-white rounded-lg shadow-md">
+            <h2 class="text-3xl font-semibold text-pink-600 mb-6 text-center">Documentos de Interés</h2>
+            <div class="text-center">
+                <a href="Pdf/Estudio de Tiempos con Cronometro.pdf"
+                   target="_blank"
+                   class="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
+                    </svg>
+                    Ver Estudio de Tiempos con Cronómetro (PDF)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-pink-600 text-pink-100 py-8 text-center">
+        <p>&copy; <span id="currentYear"></span> Empresa Masmelitos de Corazón. Todos los derechos reservados.</p>
+        <p class="text-sm">Hecho con <span class="text-red-400">&hearts;</span> para endulzar tu día.</p>
+    </footer>
+
+    <script>
+        // Script para obtener el año actual para el pie de página
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
